@@ -1,10 +1,19 @@
 pipeline {
     agent any
+    
     stages {
-        stage('Build') {
-            steps {
-                bat 'py --version'
-            }
-        }
+  stage('build') {
+    steps {
+      echo 'Building...'
     }
+  }
+
+  stage('test') {
+    steps {
+      echo 'Testing...'
+    }
+  }
+
+}
+
 }
