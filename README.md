@@ -1,3 +1,2 @@
 # test_Jenkins
 Repository pour tester comment marche Jenkins et le prendre en main
-On teste un commit innocent pour voir si l'info est transmise à Jenkins...
